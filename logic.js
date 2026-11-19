@@ -140,7 +140,7 @@ if (bookingForm) {
         const guestPhone = document.querySelector("#guest-phone")?.value || "";
         const guestMessage = document.querySelector("#guest-message")?.value || "";
 
-        const message = `Hello London Royal Hotel,\n\n` +
+        const message = `Hello El Imperio Hotel,\n\n` +
             `I would like to request a booking.\n\n` +
             `Room: ${roomName}\n` +
             `Check-in: ${checkIn}\n` +
