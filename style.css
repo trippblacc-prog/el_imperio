@@ -174,7 +174,7 @@ nav ul li a:hover {
         rgba(41, 36, 33, 0.45),
         rgba(41, 36, 33, 0.60)
             ),
-        url('images/hero-image-1.jpg');
+        url('images/hero-image-1.jpg') ;
 
     background-position: center;
     background-size: cover;
@@ -292,6 +292,17 @@ nav ul li a:hover {
 
     transform: translateY(-2px);
 
+}
+
+
+@media (max-width: 768px) {
+    #hero-section {
+        min-height: 70vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
 }
 
 
